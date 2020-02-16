@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Simple Linux update script for Ubuntu and its forks/derivatives 
+#The 'sudo' command may not work on Debian, depending on if sudo has been installed/configured
+
+sudo apt update -yy
+sudo apt update --fix-missing -yy
+sudo apt upgrade -yy
+sudo apt dist-upgrade -yy
+sudo apt clean -yy
+sudo apt autoclean -yy
+sudo apt autoremove -yy
+
+exit
